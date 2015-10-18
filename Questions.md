@@ -81,10 +81,6 @@ public:
 
 *With method implementation: 
 
-#include <iostream>
-#include <string>
-using namespace std;
-
 class BankAccount {
 private:
 	string name;
