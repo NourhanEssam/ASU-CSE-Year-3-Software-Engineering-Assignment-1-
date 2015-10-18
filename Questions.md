@@ -4,7 +4,7 @@ ID: 33851
 
 *Questions:
 
-1. What is a class? 
+Q1. What is a class? 
 Answer:
 A class is a definition of a user-defined type. 
 A class declaration specifies how data is to be stored, and it specifies the methods (class member functions) that can be used to access and manipulate that data. 
@@ -13,14 +13,14 @@ It has a name, and it describes the state (member data) and services (member fun
 Classes are the fundamental packaging unit of OO technology, They are a way to localize all the states and services associated with a cohesive concept.
 
 
-2. How does a class accomplish abstraction, encapsulation, and data hiding? 
+Q2. How does a class accomplish abstraction, encapsulation, and data hiding? 
 Answer:
 Abstraction is the simplest interface to an object that provides all the features and services the intended user experts, The user uses the class through a public interface of class methods, and can not access private data. 
 Data hiding is that the private data in the class can only be accessed through the public methods of this class, hence hiding these private data from being directly accessed from outside the class. 
 Encapsulation is the details of implementation itself, such as data representation and methods. 
 
 
-3. What is the relationship between an object and a class? 
+Q3. What is the relationship between an object and a class? 
 Answer: 
 The relationship between class and object is the same as the relationship between primitive data types and variables or instances of it.
 Hence, the class defines the type and its interface and how it can be used,
@@ -33,14 +33,14 @@ Classes are the fundamental packaging unit of OO technology, They are a way to l
 While an object is a software entity that combines state and behaviour.
 
 
-4. In what way, aside from being functions, are class function members different from class data members?
+Q4. In what way, aside from being functions, are class function members different from class data members?
 Answer:
 Data members are private most of the time while Methods are declared as public.
 Also data members are reserved in the memory once the object is instanciated while methods are only used once being called by this object (except for the default constructor).
 Also each instanciated object has its own data members while all objects share the same functions of the class.
 
 
-5. Define a class to represent a bank account. Data members should include the
+Q5. Define a class to represent a bank account. Data members should include the
 depositor’s name, the account number (use a string), and the balance. Member functions
 should allow the following:
  Creating an object and initializing it.
@@ -124,12 +124,12 @@ public:
 
 };
 
-6. When are class constructors called? When are class destructors called?
+Q6. When are class constructors called? When are class destructors called?
 Answer: 
 constructor is called when you create an instance or object of the class in case of default constructor, or is called when you call the constructor for this object.
 destructor is caleed when  object expires, It is a "prepare to die" member function.
 
-7. Provide code for a constructor for the bank account class from
+Q7. Provide code for a constructor for the bank account class from
 Chapter Review
 Question 5.
 Answer:
@@ -140,11 +140,11 @@ Answer:
 		balance=bal;
 	}
 
-8. What is a default constructor? What is the advantage of having one?
+Q8. What is a default constructor? What is the advantage of having one?
 Answer:
 Default constructor may have no arguments or initial ones, It is called automatically once the object is created, It allows you to create objects and initialize them directly without having to call a constructor.
 
-9. Modify the Stock class definition (the version in stock20.h) so that
+Q9. Modify the Stock class definition (the version in stock20.h) so that
 it has member
 functions that return the values of the individual data members. Note:A
 member
