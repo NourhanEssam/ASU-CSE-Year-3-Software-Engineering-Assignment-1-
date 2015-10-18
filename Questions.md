@@ -187,6 +187,6 @@ return company;
 }
 };
 
-10. What are this and *this?
+Q10. What are this and *this?
 Answer: 
 This is the address of the object calling the method, while *this is the object itself which is calling this method.
