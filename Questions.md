@@ -11,5 +11,5 @@ It has a name, and it describes the state (member data) and services (member fun
 Classes are the fundamental packaging unit of OO technology, They are a way to localize all the states and services associated with a cohesive concept.
 
 2. How does a class accomplish abstraction, encapsulation, and data hiding?
-3. Answer:
-4. 
+Answer:
+
