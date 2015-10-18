@@ -152,3 +152,41 @@ that returns the company name should not provide a weapon for altering
 the array.
 That is, it can’t simply return a string reference. It could return a
 const reference.	
+Answer: 
+
+class Stock
+{
+private:
+string company;
+int shares;
+double share_val;
+double total_val;
+void set_tot() { total_val = shares * share_val; }
+public:
+Stock(); // default constructor
+Stock(const std::string & co, long n = 0, double pr = 0.0);
+~Stock(); // do-nothing destructor
+void buy(long num, double price);
+void sell(long num, double price);
+void update(double price);
+void show()const;
+const Stock & topval(const Stock & s) const;
+////////////////////////////
+//added functions: 
+int GetShares() const {
+return shares;
+}
+double GetShare_val() const {
+return share_val;
+}
+double GetTotal_val() const{
+return total_val;
+}
+const string & GetCompany() const{
+return company;
+}
+};
+
+10. What are this and *this?
+Answer: 
+This is the address of the object calling the method, while *this is the object itself which is calling this method.
