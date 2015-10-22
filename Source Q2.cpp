@@ -25,7 +25,7 @@ void Show() const{
 }// firstname lastname format
 
 void FormalShow() const{
-	cout<<fname<<", "<<lname<<endl;
+	cout<<lname<<", "<<fname<<endl;
 }// lastname, firstname format
 };
 
